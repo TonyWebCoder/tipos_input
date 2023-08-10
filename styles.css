@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-image: radial-gradient(
+    circle at 17.33% 58.75%,
+    #ffbd95 0,
+    #ffc090 5.56%,
+    #f9c38c 11.11%,
+    #f2c689 16.67%,
+    #eac987 22.22%,
+    #e2cc87 27.78%,
+    #d9cf88 33.33%,
+    #d0d18a 38.89%,
+    #c7d48d 44.44%,
+    #bdd691 50%,
+    #b3d896 55.56%,
+    #a9da9c 61.11%,
+    #9fdca3 66.67%,
+    #94ddab 72.22%,
+    #8adeb3 77.78%,
+    #80dfbc 83.33%,
+    #76e0c5 88.89%,
+    #6ce0ce 94.44%,
+    #64e0d7 100%
+  );
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  color: #187bb4;
+  font-size: 1.5rem;
+}
+
+.contenedor {
+  width: 17rem;
+  padding: 2rem;
+  background-color: rgb(217, 233, 232);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
